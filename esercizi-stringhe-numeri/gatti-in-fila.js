@@ -12,3 +12,11 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
+var n = 5; /*gatti*/
+var f = 2; /*file*/
+
+var fileTotali = Math.ceil(n/f);
+var gattiMancanti = (fileTotali*f)-n;
+
+
+console.log(`${n} gatti in fila per ${f} si unirono compatti in ${fileTotali} file. Nellultima fila rimasero ${gattiMancanti} posti gatto disponibili.`);
