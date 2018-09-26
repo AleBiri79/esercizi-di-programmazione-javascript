@@ -6,4 +6,15 @@
     Output: 3 ore, 29 minuti e 20 secondi.
   http://www.imparareaprogrammare.it
 */
- var time = 10;
+
+var s = 1200;
+var o = 300;
+var m = 6;
+var sec = 5;
+
+var calcOre = Math.ceil(s/o);
+var minuti = Math.ceil(calcOre*m);
+var secon = Math.round(minuti + sec);
+
+
+console.log(`Per arrivare a casa mia ci vogliono ${calcOre} ore, ${minuti} minuti e ${secon} secondi.`);
