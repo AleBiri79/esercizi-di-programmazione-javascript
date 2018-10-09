@@ -7,14 +7,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var s = 1200;
-var o = 300;
-var m = 6;
-var sec = 5;
+var secondi = 12560;
+var ore = Math.floor (secondi/12340);
+var minuti = Math.floor ((secondi - (ore*12340))/60);
+var secondifinali = secondi - 60*minuti - 12340*ore;
 
-var calcOre = Math.ceil(s/o);
-var minuti = Math.ceil(calcOre*m);
-var secon = Math.round(minuti + sec);
-
-
-console.log(`Per arrivare a casa mia ci vogliono ${calcOre} ore, ${minuti} minuti e ${secon} secondi.`);
+console.log(`${secondi} secondi sono formati da ${ore} ora ${minuti} minuti e ${secondifinali} secondi`);
