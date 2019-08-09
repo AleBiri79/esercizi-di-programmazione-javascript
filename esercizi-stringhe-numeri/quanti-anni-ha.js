@@ -6,7 +6,6 @@
 //il simbolo ${} che aggiunge la variabile all'interno della stringa*
 var annoNascita = 1979;
 var annoAttuale = 2019;
-
 var calcoloEta = annoAttuale - annoNascita;
 var cento = 100 - calcoloEta;
 
