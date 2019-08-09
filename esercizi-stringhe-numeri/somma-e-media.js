@@ -8,7 +8,6 @@
  var c = 10;
  var d = 13;
  var e = 22;
-
  var calcoloSomma = a + b + c + d + e;
  var calcoloMedia = calcoloSomma/5;
 
