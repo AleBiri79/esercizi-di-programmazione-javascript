@@ -16,7 +16,6 @@
 
 var gat = 44;
 var fil = 6;
-
 var gatTotali = Math.ceil (gat/fil);
 var gatMancanti = (gatTotali*fil)-gat;
 
