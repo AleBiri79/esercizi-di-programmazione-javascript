@@ -12,11 +12,12 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
-var n = 5; /*gatti*/
-var f = 2; /*file*/
+/*ho utilizzato il metodo Math.ceil (arrotonda sempre all'intero superiore) il simbolo ${} che aggiunge la variabile all'interno della stringa*/
 
-var fileTotali = Math.ceil(n/f);
-var gattiMancanti = (fileTotali*f)-n;
+var gat = 44;
+var fil = 6;
 
+var gatTotali = Math.ceil (gat/fil);
+var gatMancanti = (gatTotali*fil)-gat;
 
-console.log(`${n} gatti in fila per ${f} si unirono compatti in ${fileTotali} file. Nellultima fila rimasero ${gattiMancanti} posti gatto disponibili.`);
+console.log (`${gat} gatti vengono divisi in ${fil} file per un totale di ${gatTotali} gatti per ognuna. Nell'ultima file i gatti rimanenti sono ${gatMancanti}.`);
