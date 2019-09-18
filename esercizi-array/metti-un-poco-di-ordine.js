@@ -6,3 +6,6 @@
   Prova ad ordinali in modo crescente.
   http://www.imparareaprogrammare.it
 */
+var n = [5, 79, 6, 23, 12, 86, 27, 2, 0];
+n.sort(function(a,r) {return a-r;});
+console.log(n);
