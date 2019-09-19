@@ -15,3 +15,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var input = [1,2,3,4,5,6];
+var nPari = input.filter(function evenInput (numeri){
+  return numeri % 2 === 0;
+});
+var nDispari = input.filter(function evenInput (numeri){
+  return numeri % 2 === 1;
+});
+
+console.log(`Numeri pari= ${nPari} \n\nNumeri dispari= ${nDispari}`);
